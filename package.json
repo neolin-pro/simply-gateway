@@ -1,0 +1,25 @@
+{
+  "name": "simply-gateway",
+  "version": "1.0.0",
+  "description": "API gateway that simply routes to actual service providers, providing plugins to handle authentication, authorization, logging, caching and rate limiting functionality.",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "API gateway"
+  ],
+  "author": "Nay Zaw Lin",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/basic": "^7.0.2",
+    "@hapi/glue": "^9.0.1",
+    "@hapi/hapi": "^21.4.3",
+    "blipp": "^4.0.2",
+    "hapi-pino": "^13.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nayzawlin/simply-gateway"
+  }
+}
